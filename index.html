@@ -30,6 +30,13 @@
 </script>
 </head>
   <body class="bg-gray-50 text-gray-900 antialiased h-screen overflow-hidden">
-    <div id="root" class="h-full w-full"></div>
+    <div id="root" class="h-full w-full flex items-center justify-center">
+      <div class="flex flex-col items-center gap-3">
+        <div class="w-8 h-8 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin"></div>
+        <div class="text-indigo-600 font-medium animate-pulse">Loading StudyGenius...</div>
+      </div>
+    </div>
+    <!-- Entry point for the application. Essential for the app to load. -->
+    <script type="module" src="./index.tsx"></script>
   </body>
 </html>
