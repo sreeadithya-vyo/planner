@@ -1,0 +1,5 @@
+{
+  "name": "StudyGenius AI",
+  "description": "An intelligent daily study planner and tutor powered by Gemini AI. Generates personalized schedules, tracks progress, and answers academic queries.",
+  "requestFramePermissions": []
+}
